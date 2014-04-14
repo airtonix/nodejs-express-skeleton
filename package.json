@@ -1,0 +1,62 @@
+{
+  "name": "AngularJs-ExpressJs-Skeleton",
+  "version": "0.0.1",
+  "description": "A skeleton project template aimed at AngularJs on ExpressJS with Scss(bourbon)",
+  "homepage": "http://github.com/airtonix/angular-expressjs-skeleton",
+  "bugs": {
+    "url": "http://github.com/airtonix/angular-expressjs-skeleton/issues"
+  },
+  "authors": [
+    "Zenobius Jiricek <https://bitbucket.org/airtonix>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/airtonix/angular-expressjs-skeleton.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "main": "coffee ./src/server",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-requirejs": "~0.4.1",
+    "grunt-filerev": "git+https://github.com/airtonix/grunt-filerev.git",
+    "grunt-userev": "git+https://github.com/airtonix/grunt-userev.git",
+    "grunt-filerev-assets": "git+https://github.com/airtonix/grunt-filerev-assets.git",
+    "grunt-bump": "0.0.13",
+    "grunt-html2js": "~0.2.4",
+    "grunt-express": "~1.2.1",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-sass": "~0.12.1",
+    "grunt-contrib-jade": "~0.11.0",
+    "lodash": "~2.4.1",
+    "matchdep": "~0.3.0",
+    "coffee-script": "~1.7.1",
+    "jade": "~1.3.0",
+    "node-sass": "~0.8.4",
+    "compile-middleware": "git+https://github.com/airtonix/compile-middleware.git",
+    "express": "~3.4.8",
+    "connect": "~2.14.1",
+    "connect-compiler": "~0.1.3",
+    "connect-jade-html": "0.0.1",
+    "connect-route": "~0.1.4",
+    "connect-modrewrite": "~0.6.3-pre",
+    "string.prototype.endswith": "~0.1.0",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "colony": "0.0.7",
+    "grunt-shell": "~0.6.4"
+  }
+}
